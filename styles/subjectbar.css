@@ -1,0 +1,50 @@
+.subjectbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  position: fixed;
+  top: 57px;
+  left: 72px;
+  right: 0;
+  background-color: white;
+  z-index: 200;
+}
+.subjectbar-link,
+.subjectbar-link1 {
+  font-family: roboto, arial;
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-right: 12px;
+  height: 32px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  white-space: nowrap;
+  border-radius: 8px;
+  cursor: pointer;
+  line-height: 20px;
+  transition: 0.25s;
+}
+.subjectbar-link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.subjectbar-link:focus,
+.subjectbar-link1:focus {
+  background-color: black;
+  color: white;
+}
+.subjectbar-link1 {
+  margin-left: 24px;
+}
+.shape {
+  position: absolute;
+  width: 56px;
+  height: 40px;
+  background-color: white;
+  right: 0px;
+  top: 10px;
+}
